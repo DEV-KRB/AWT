@@ -4,10 +4,10 @@ import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class checkboxGroup {
+public class checkboxGroupComp {
 
     Label label;
-    public checkboxGroup() {
+    public checkboxGroupComp() {
         Frame frame = new Frame("Title of the Frame");
         label = new Label("checkbox clicked");
         label.setBounds(200,200,300,30);
@@ -48,6 +48,6 @@ public class checkboxGroup {
     }
 
     public static void main(String[] args) {
-        checkboxGroup obj1 = new checkboxGroup();
+        checkboxGroupComp obj1 = new checkboxGroupComp();
     }
 }

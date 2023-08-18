@@ -10,10 +10,13 @@ public class mainApp implements WindowListener, ActionListener {
 
         //create checkbox
         Checkbox checkbox = new Checkbox("java");
-        checkbox.setBounds(20,120,50,30);
+        checkbox.setBounds(20,150,50,30);
 
         Checkbox checkbox1 = new Checkbox("python");
-        checkbox.setBounds(20,150,50,30);
+        checkbox1.setBounds(20,180,50,30);
+
+        frame.add(checkbox);
+        frame.add(checkbox1);
 
         //add text area
         TextArea textArea = new TextArea("");
@@ -44,8 +47,6 @@ public class mainApp implements WindowListener, ActionListener {
         frame.add(label);
         frame.add(textField);
         frame.add(textArea);
-        frame.add(checkbox);
-        frame.add(checkbox1);
 
         //popup window
         frame.setSize(400,300);

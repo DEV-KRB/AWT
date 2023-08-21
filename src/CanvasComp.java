@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class CanvaComp extends JFrame {
+ class CanvaComp extends JFrame {
 
     public CanvaComp(){
 
